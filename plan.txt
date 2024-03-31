@@ -1,0 +1,8 @@
+Project components:
+0. Page retrieval: Focused web crawler that retrieves HTML pages and converts them to a DOM trees
+1. Text preprocessing: Stemming/word stop removal, tokenization, and normalization as described in section 4.3.* of the paper
+2. Finding maximum common subgraph via ISMAGS algorithm
+3. Retrieving most relavant page as determined by search engine and comparing it with out target page using steps 1 and 2. 
+
+Which components seem like the most work? Is the discrepancy small enough that it's fair to assign one to each group member?
+How will we define the interface between each component?
